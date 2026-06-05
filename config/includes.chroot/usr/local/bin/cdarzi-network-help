@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cat <<'HELP'
+cDarzi Network Help
+
+GUI:
+  Use the network icon in the top panel to connect to Wi-Fi, Ethernet, phone tethering, Bluetooth, or mobile broadband.
+
+Quick checks:
+  nmcli device
+  rfkill list
+  sudo rfkill unblock wifi
+  sudo systemctl restart NetworkManager
+
+Range tips:
+  Software cannot guarantee a fixed 50 m/100 m Wi-Fi range. Use 2.4 GHz for distance, reduce walls/interference, update firmware, or use Ethernet/USB tethering when reliability matters.
+HELP

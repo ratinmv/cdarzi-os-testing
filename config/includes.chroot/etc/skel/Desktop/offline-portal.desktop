@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Offline Portal
+Comment=Open the local cDarzi offline browser portal
+Exec=firefox-esr file:///usr/local/share/cdarzi/offline-portal/index.html
+Icon=web-browser
+Terminal=false
+Categories=Network;Documentation;

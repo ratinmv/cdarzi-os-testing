@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cDarzi Offline Browser Portal</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; background: #0d1117; color: #eef2ff; }
+    body { margin: 0; padding: 32px; }
+    main { max-width: 1050px; margin: 0 auto; }
+    header { padding: 28px; border-radius: 24px; background: linear-gradient(135deg, #2563eb, #7c3aed); box-shadow: 0 24px 70px #0008; }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 4rem); letter-spacing: -0.06em; }
+    h2 { margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 20px; }
+    .card { background: #161b22; border: 1px solid #30363d; border-radius: 18px; padding: 18px; }
+    code { background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 2px 6px; }
+    a { color: #93c5fd; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>cDarzi OS</h1>
+    <p>A modern live desktop with a flat UI, compact app icons, offline help, and practical wired/wireless connection tools.</p>
+  </header>
+  <section class="grid">
+    <article class="card">
+      <h2>Connect to Wi-Fi</h2>
+      <ol>
+        <li>Click the network icon in the top panel.</li>
+        <li>Choose your wireless network.</li>
+        <li>Enter the password and connect.</li>
+      </ol>
+      <p>If Wi-Fi is blocked, run <code>rfkill unblock wifi</code>. For maximum range, use 2.4 GHz or Ethernet/USB tethering.</p>
+    </article>
+    <article class="card">
+      <h2>Offline browsing</h2>
+      <p>This portal is stored locally, so it works with no internet. Save extra HTML/PDF docs into your home folder for offline use.</p>
+    </article>
+    <article class="card">
+      <h2>Apps</h2>
+      <p>Open the top-left menu for files, terminal, browser, office tools, media, disks, printing, screenshots, and settings.</p>
+    </article>
+    <article class="card">
+      <h2>Hardware diagnostics</h2>
+      <p>Useful commands: <code>nmcli device</code>, <code>ip addr</code>, <code>lsusb</code>, <code>lspci</code>, <code>sudo lshw -C network</code>.</p>
+    </article>
+  </section>
+</main>
+</body>
+</html>
