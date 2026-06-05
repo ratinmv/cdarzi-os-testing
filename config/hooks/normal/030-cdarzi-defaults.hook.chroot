@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+install -d -m 0755 /etc/xdg/autostart
+cat > /etc/xdg/autostart/cdarzi-offline-portal.desktop <<'DESKTOP'
+[Desktop Entry]
+Type=Application
+Name=cDarzi Offline Portal
+Exec=firefox-esr file:///usr/local/share/cdarzi/offline-portal/index.html
+OnlyShowIn=XFCE;
+X-GNOME-Autostart-enabled=true
+DESKTOP

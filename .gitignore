@@ -1,0 +1,14 @@
+/.build/
+/binary/
+/cache/
+/chroot/
+/config/binary
+/config/bootstrap
+/config/chroot
+/config/common
+/config/source
+/live-image-*.iso
+/live-image-*.hybrid.iso
+/dist/*.iso
+/dist/*.sha256
+*.log

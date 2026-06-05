@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Network Help
+Comment=Show cDarzi Wi-Fi, Ethernet, and tethering help
+Exec=xfce4-terminal --hold --command=cdarzi-network-help
+Icon=network-wireless
+Terminal=false
+Categories=Network;Settings;
