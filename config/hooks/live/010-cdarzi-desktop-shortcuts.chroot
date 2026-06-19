@@ -1,0 +1,27 @@
+#!/bin/sh
+set -e
+
+mkdir -p /etc/skel/Desktop
+cat > /etc/skel/Desktop/Install-cDarzi-OS.desktop <<'DESKTOP'
+[Desktop Entry]
+Type=Application
+Name=Install cDarzi OS
+Comment=Install cDarzi OS to this computer with the graphical installer
+Exec=calamares
+Icon=calamares
+Terminal=false
+Categories=System;
+DESKTOP
+chmod +x /etc/skel/Desktop/Install-cDarzi-OS.desktop
+
+cat > /etc/skel/Desktop/cDarzi-Welcome.desktop <<'DESKTOP'
+[Desktop Entry]
+Type=Application
+Name=cDarzi Welcome
+Comment=Show cDarzi quick-start information
+Exec=konsole -e cdarzi-welcome
+Icon=help-about
+Terminal=false
+Categories=Utility;
+DESKTOP
+chmod +x /etc/skel/Desktop/cDarzi-Welcome.desktop

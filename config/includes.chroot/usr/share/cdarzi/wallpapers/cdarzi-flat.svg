@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 3840 2160">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="0.55" stop-color="#18213a"/>
+      <stop offset="1" stop-color="#0b5f8a"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1">
+      <stop offset="0" stop-color="#4fd1c5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="3840" height="2160" fill="url(#bg)"/>
+  <circle cx="3150" cy="420" r="420" fill="#22d3ee" opacity="0.16"/>
+  <circle cx="720" cy="1740" r="520" fill="#8b5cf6" opacity="0.18"/>
+  <rect x="860" y="580" width="2120" height="1000" rx="96" fill="#0f172a" opacity="0.62"/>
+  <path d="M1190 1350 L1620 810 H1940 L1510 1350 Z" fill="url(#card)"/>
+  <path d="M1900 810 H2260 C2580 810 2750 1010 2670 1210 C2600 1385 2420 1350 2160 1350 H1780 Z M2135 1040 L2050 1125 H2260 C2365 1125 2425 1090 2440 1040 Z" fill="#e2e8f0"/>
+  <text x="1920" y="1685" text-anchor="middle" font-family="Inter, Noto Sans, Arial, sans-serif" font-size="132" font-weight="700" fill="#f8fafc">cDarzi OS</text>
+  <text x="1920" y="1815" text-anchor="middle" font-family="Inter, Noto Sans, Arial, sans-serif" font-size="56" fill="#bae6fd">Gaming • Programming • Simple Flat Desktop</text>
+</svg>
