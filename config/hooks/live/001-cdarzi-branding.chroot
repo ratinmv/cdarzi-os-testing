@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+
+cat > /etc/cdarzi-release <<'RELEASE'
+cDarzi OS rolling-live profile
+Gaming and programming desktop ISO based on Debian Live.
+RELEASE
+
+cat > /etc/issue <<'ISSUE'
+cDarzi OS \n \l
+ISSUE
+
+mkdir -p /etc/skel/.config
+cat > /etc/skel/.config/cdarzi-first-run.txt <<'WELCOME'
+Welcome to cDarzi OS. Run cdarzi-welcome for quick-start notes and cdarzi-store-setup to enable Flathub.
+WELCOME

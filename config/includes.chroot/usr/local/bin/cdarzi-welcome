@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cat <<'WELCOME'
+Welcome to cDarzi OS.
+
+Quick starts:
+  - Open Discover or GNOME Software to install apps.
+  - Run cdarzi-store-setup once to enable Flathub Flatpak apps.
+  - Open Steam, Lutris, or Heroic-compatible Flatpaks for gaming.
+  - Use Kate, Konsole, Git, GCC/Clang, Python, Node.js, Rust, Go, and Java for development.
+  - Use Calamares from the desktop to install cDarzi OS to disk.
+WELCOME
